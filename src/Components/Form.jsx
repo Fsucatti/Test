@@ -41,15 +41,10 @@ function Form(props) {
             value={plato} 
             onChange={handleChange}
             />
-            {error && <p>{error}</p>}
-            <button type="submit">Agregar</button>
-        </form>
-        <form className={style.form} onSubmit={handleSubmit}>
-            <label htmlFor="bebida">Bebida: </label>
             <input 
             type="text" 
-            id="bebida" 
-            value={bebida} 
+            id="bebida"
+            value={bebida}
             onChange={handleChange}
             />
             {error && <p>{error}</p>}
